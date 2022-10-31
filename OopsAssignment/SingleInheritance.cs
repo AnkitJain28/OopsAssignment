@@ -2,7 +2,7 @@
 
 class GrandFather
 {
-    public string LastName = "Jain";
+    public static string LastName = "Jain";
 } 
 
 class Father : GrandFather
