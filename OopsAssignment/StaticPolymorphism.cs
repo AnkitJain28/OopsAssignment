@@ -15,12 +15,31 @@ class User
         this.city = city;
         this.mobileNumber = mobileNumber;
     }
-
     
+    public void Print(int i)
+    {
+        Console.WriteLine("First Name = " + this.firstName);
+        Console.WriteLine("Last Name = " + this.lastName);
+
+    }
+    public void Print(double d)
+    {
+        Console.WriteLine("Email = " + this.email);
+        Console.WriteLine("City = " + this.city);
+        Console.WriteLine("Mobile Number = " + this.mobileNumber);
+    }
 
 }
 
 class StaticPolymorphism
 {
+    public static void Main(string[] args)
+    {
 
+        User U1 = new User("Ankit", "Jain", "aj4451999", "Dungarpur", "9636756942");
+        U1.Print(1);
+        U1.Print(1.0);
+
+    }
+    
 }
