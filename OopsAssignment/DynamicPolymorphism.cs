@@ -49,8 +49,9 @@ class Rectangle:Shape
         this.area = this.CalculateArea();
     }
 }
-class Program1
+class DynamicPolymorphism
 {
+
     public static void Main(string[] args)
     {
         Circle C1 = new Circle(5.0);
